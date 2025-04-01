@@ -5,20 +5,26 @@ Script para organizar automaticamente arquivos por tipo (imagens, documentos, et
 ## 🚀 Como Usar
 
 ### Instalação
-```bash
+```sh
 git clone https://github.com/Pedr88/organizador_arquivos
 cd organizador_arquivos
 ```
 ### Execução
 
 # Organizar pasta Downloads (padrão)
+```sh
 python main.py
+```
 
 # Organizar outra pasta
+```sh
 python main.py --folder "C:\Users\user\Desktop"
+```
 
 # Modo simulação (sem alterar arquivos)
+```sh
 python main.py --dry-run
+```
 
 ## ⚙️ Opções
 - `--folder` *`caminho`*  
