@@ -6,7 +6,7 @@ Script para organizar automaticamente arquivos por tipo (imagens, documentos, et
 
 ### Instalação
 ```bash
-git clone https://github.com/Pedr88/organizador_arquivos.git
+git clone https://github.com/Pedr88/organizador_arquivos
 cd organizador_arquivos
 ```
 ### Execução
