@@ -1,42 +1,49 @@
-# 📂 Organizador de Arquivos em Python
+### 📂 File Organizer in Python
 
-Script para organizar automaticamente arquivos por tipo (imagens, documentos, etc) em subpastas.
+Script to automatically organize files by type (images, documents, etc.) into subfolders.
 
-## 🚀 Como Usar
+#### 🚀 How to Use
 
-### Instalação
+##### Installation
+
 ```sh
 git clone https://github.com/Pedr88/organizador_arquivos
 cd organizador_arquivos
 ```
-### Execução
 
-# Organizar pasta Downloads (padrão)
+##### Execution
+
+To organize the Downloads folder (default):
+
 ```sh
 python main.py
 ```
 
-# Organizar outra pasta
+To organize another folder:
+
 ```sh
 python main.py --folder "C:\Users\user\Desktop"
 ```
 
-# Modo simulação (sem alterar arquivos)
+To run in simulation mode (without modifying files):
+
 ```sh
 python main.py --dry-run
 ```
 
-## ⚙️ Opções
-- `--folder` *`caminho`*  
-  Pasta a organizar (padrão: `~/Downloads`)
-- `--dry-run`  
-  Simula sem mover arquivos
-- `--log-level` *`nível`*  
-  Detalhe do log: `DEBUG`|`INFO`|`WARNING`|`ERROR`
+#### ⚙️ Options
 
-## 📦 Pastas Criadas
-- **Imagens**: .jpg, .png, .gif  
-- **Documentos**: .pdf, .docx, .txt  
-- **Planilhas**: .xlsx, .csv  
-- **Compactados**: .zip, .rar  
-- *(Lista completa no código)*
+- `--folder` *`path`*  
+  Folder to organize (default: `~/Downloads`)
+- `--dry-run`  
+  Simulate without moving files
+- `--log-level` *`level`*  
+  Log detail level: `DEBUG`|`INFO`|`WARNING`|`ERROR`
+
+#### 📦 Created Folders
+
+- **Images**: .jpg, .png, .gif  
+- **Documents**: .pdf, .docx, .txt  
+- **Spreadsheets**: .xlsx, .csv  
+- **Compressed**: .zip, .rar  
+- *(Complete list in the code)*
